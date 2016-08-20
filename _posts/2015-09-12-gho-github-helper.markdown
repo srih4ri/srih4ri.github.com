@@ -10,19 +10,19 @@ Gho (Github Open) is a shell function :
 
 In zsh :
 
-{% highlight bash %}
+```bash
 gho () {
     open "https://`git config --get remote.origin.url|sed -e s/.git//g|sed s,:,/,g`/$1"
 }
-{% endhighlight %}
+```
 
 Or if you're using fish shell. ( You should try [fish](http://fishshell.com/), the autocomplete is nice!) :
 
-{% highlight bash %}
+```bash
 function gho
   open https://(git config --get remote.origin.url|sed -e s/.git//g|sed s,:,/,g)/$argv
 end
-{% endhighlight %}
+```
 
 Make sure `open` command opens a URL. In my linux machine I have aliased `open` to `xdg-open`.
 
