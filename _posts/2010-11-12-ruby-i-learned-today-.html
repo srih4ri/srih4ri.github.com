@@ -1,0 +1,16 @@
+--- 
+layout: post
+title: Ruby I learned today.
+published: true
+---
+<p>I am new to ruby . Here is something i feel cool that i learnt today , You can mix in  instance methods and class methods by include and extend respectively .</p>
+<p>In rails i put a file my_module.rb in my lib directory</p>
+<p>Inside which i wrote my module</p>
+<p><code> module MyModule <br /> def foo  <br /> puts "bar"   <br /> end <br /> end </code></p>
+<p>Rails auto loads the lib folder so you can include MyModule in your ,hmm say , model</p>
+<p><code> Class MyModel  &lt;&lt; ActiveRecord::Base <br /> include MyModule <br /> ... <br /> ... </code></p>
+<p>This would add an instance method foo (which is from the module) to your Model. So you can do</p>
+<p><code> &gt;&gt; mm = MyModel.new <br /> &gt;&gt; mm.foo bar <br /></code></p>
+<p>Now if you needed MyModel.foo , ie a class method , you would extend your model.</p>
+<p><code> Class MyModel &lt;&lt; ActiveRecord::Base <br /> extends MyModule <br /> ... <br /> ... </code> <code> &gt;&gt;MyModel.foo <br /> bar </code></p>
+<p>You can override methods of your class , from a module like this .Which , say for example , lets you monkeypatch active record methods say , which you are not supposed to do though . &gt;: ) <em>(Why ? probably because it will be lot of laugh when your co developer finally realises his bug was because he did not know you overriding the method)</em></p>

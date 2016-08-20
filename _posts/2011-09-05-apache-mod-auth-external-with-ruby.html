@@ -1,0 +1,10 @@
+--- 
+layout: post
+title: Apache mod-auth-external with ruby
+published: true
+---
+<p>This <a href="http://code.google.com/p/mod-auth-external/">http://code.google.com/p/mod-auth-external/</a> is useful when you need to provide http basic auth ,but authorise from an external program and not htpasswd file.<p /> The installation and confiugration outlined at <a href="http://code.google.com/p/mod-auth-external/wiki/Installation">http://code.google.com/p/mod-auth-external/wiki/Installation</a> worked for me.I was on a Ubuntu 11.04 , so httpd was replaced by apache2 and apxs was apxs2.There is an example perl script in the source code :<p /> <a href="http://code.google.com/p/mod-auth-external/source/browse/trunk/mod_authnz_external/test/test.pipe">http://code.google.com/p/mod-auth-external/source/browse/trunk/mod_authnz_external/test/test.pipe</a><p /> Here is my ruby version of it :<br />
+<script src="https://gist.github.com/1195567.js?file=auth_simple.rb"></script>
+<br />This is almost what I used later on:<br />
+<script src="https://gist.github.com/1195567.js?file=auth_db.rb"></script>
+</p>

@@ -1,0 +1,6 @@
+--- 
+layout: post
+title: Twitter bootstrap with rails 3.1 dropdown not working.
+published: true
+---
+Hey that dropdown in your rails 3.1 app ,using twitter bootstrap , did <br />not work because the bootstrap-dropdown.js was included twice , once <br />by the require_tree in application.js and then you calling javascript <br />include tag.Don't waste thirty minutes figuring this out like i just <br />did. kthxbye
