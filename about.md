@@ -1,15 +1,10 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+> There are only two hard things in Computer Science: cache invalidation and naming things.
+>
+>  -- Phil Karlton
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+To make things easy, I call things what they're. Hard disk is called HARDDISK. It seemed obvious to call my server, srvr.
