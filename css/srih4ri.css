@@ -1,4 +1,89 @@
 .highlight {
   background-color: #eee;
-  padding: 10px;
+  padding: 10pt;
+}
+ul, p{
+  padding: 0px;
+}
+body {
+  padding: 0pt 70pt
+}
+
+.site-title{
+  margin-top: 85pt;
+}
+
+.site-title a{
+  text-decoration: none;
+  color: #000000;
+  font-family: HelveticaNeue-Bold;
+  font-size: 51pt;
+  color: #000000;
+}
+
+.site-description{
+  font-family: HelveticaNeue-Bold;
+  font-size: 18px;
+  color: #000000;
+}
+
+.content {
+  margin-top: 30pt;
+}
+.postlist{
+  list-style: none;
+}
+
+.postlist__post_url{
+  font-family: HelveticaNeue-Bold;
+  font-size: 28pt;
+  color: #000000;
+  text-decoration: none;
+}
+
+.post-title{
+  font-family: HelveticaNeue-Bold;
+  font-size: 28pt;
+  color: #000000;
+  text-decoration: none;
+}
+
+.post-content, .postlist__post_brief{
+  font-family: Georgia;
+  font-size: 14pt;
+  color: #000000;
+  line-height: 24pt;
+}
+
+.post-date,.postlist__post_meta{
+  font-family: HelveticaNeue;
+  font-size: 14pt;
+  color: #808080;
+}
+
+.postlist__post_title{
+  padding: 0pt;
+  margin: 0pt;
+  margin-bottom: 5pt;
+}
+
+.postlist__post {
+ margin-bottom: 50pt;
+}
+#antiminimal-box{
+  background-color: #333333;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 65pt;
+  width: 65pt;
+}
+
+#antiminimal-box1{
+  background-color: #333333;
+  position: fixed;
+  right: 10pt;
+  bottom: 10pt;
+  height: 28pt;
+  width: 28pt;
 }

@@ -6,25 +6,25 @@ comments: true
 categories: debian-diaspora
 ---
 
-##Quilt
+## Quilt
 
 Really good tutorial : http://www.shakthimaan.com/downloads/glv/quilt-tutorial/quilt-doc.pdf
 
 To know which patch you are on : 
-```
+```bash
 quilt top
 ```
 To move down the series ( to go to older patch)
-```
+```bash
 quilt push
 ```
 To move up the series ( to go to a newer patch)
-```
+```bash
 quilt pop
 ```
 
 The normal state ( code is untouched , all changes in patches )
-```
+```bash
 $ quilt top
 No patches applied
 ```
@@ -34,7 +34,7 @@ Assuming we are in a git repo setup for a git-buildpackage ,
 
 To create a new patch ( to edit a file unrelated to older patch ) :
 
-```
+```bash
 quilt new that_failing_test.patch
 ```
 
