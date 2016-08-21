@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Turning on git autocorrect"
-date: "2015-09-12"
+date: "2016-08-21"
 comments: true
 categories: git
 ---
