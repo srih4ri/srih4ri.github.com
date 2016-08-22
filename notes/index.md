@@ -8,3 +8,5 @@ categories: notes
 [CSS](/notes/css)
 
 [Jekyll](/notes/css)
+
+[mac](/notes/mac)
