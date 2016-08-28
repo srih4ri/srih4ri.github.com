@@ -1,13 +1,16 @@
+body {
+    width: 800px;
+    margin: auto;
+    font-size: 18px;
+}
+
 .highlight {
   background-color: #eee;
   padding: 2em;
 }
+
 ul, p{
   padding: 0px;
-}
-body {
-    padding: 0em 5em;
-    font-size: 18px;
 }
 
 .site-title{
@@ -53,9 +56,9 @@ body {
 
 .post-content, .postlist__post_brief{
   font-family: Georgia;
-  font-size: 1em;
+  font-size: 20px;
   color: #000000;
-  line-height: 1.5em;
+  line-height: 1.4;
 }
 
 .post-date,.postlist__post_meta{
