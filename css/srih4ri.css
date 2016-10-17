@@ -1,15 +1,17 @@
 .highlight {
-  background-color: #eee;
-  padding: 2em;
+    background-color: #eee;
+    padding: 2em;
 }
 ul, p{
-  padding: 0px;
+    padding: 0px;
 }
 body {
     /* padding: 0em 11em; */
+    font-family: Avenir Next;
     font-size: larger;
     width: 800px;
     margin: auto;
+    height: 100%;
 }
 
 .site-title{
@@ -18,46 +20,41 @@ body {
 }
 
 .site-title a{
-  text-decoration: none;
-  color: #000000;
-  font-family: HelveticaNeue-Bold;
-  font-size: 3em;
-  color: #000000;
+    text-decoration: none;
+    color: #000000;
+    font-size: 3em;
+    color: #000000;
 }
 
 .site-description{
-  font-family: HelveticaNeue-Bold;
-  font-size: 1em;
-  color: #000000;
+    font-size: 1em;
+    color: #000000;
 }
 
 .content {
-  margin-top: 4em;
+    margin-top: 4em;
 }
 .postlist{
-  list-style: none;
+    list-style: none;
 }
 
 .postlist__post_url{
-  font-family: HelveticaNeue-Bold;
-  font-size: 2.5em;
-  color: #000000;
-  text-decoration: none;
+    font-size: 2.5em;
+    color: #000000;
+    text-decoration: none;
 }
 
 .post-title{
-  font-family: HelveticaNeue-Bold;
-  font-size: 2.5em;
-  color: #000000;
-  text-decoration: none;
-  margin: 0em;
+    font-size: 2.5em;
+    color: #000000;
+    text-decoration: none;
+    margin: 0em;
 }
 
 .post-content, .postlist__post_brief{
-  font-family: Georgia;
-  font-size: 1em;
-  color: #000000;
-  line-height: 1.4;
+    font-size: 1em;
+    color: #000000;
+    line-height: 1.4;
 }
 
 .post-content img {
@@ -65,33 +62,104 @@ body {
     border: 5px solid #eee;
 }
 .post-date,.postlist__post_meta{
-  font-family: HelveticaNeue;
-  font-size: 1em;
-  color: #808080;
+    font-size: 1em;
+    color: #808080;
 }
 
 .postlist__post_title{
-  padding: 0em;
-  margin: 0em;
+    padding: 0em;
+    margin: 0em;
 }
 
 .postlist__post {
-  margin-bottom: 5em;
+    margin-bottom: 5em;
 }
 #antiminimal-box{
-  background-color: #333333;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  height: 5em;
-  width: 5em;
+    background-color: #333333;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 5em;
+    width: 5em;
 }
 
 #antiminimal-box1{
-  background-color: #333333;
-  position: fixed;
-  right: 2em;
-  bottom: 2em;
-  height: 2em;
-  width: 2em;
+    background-color: #333333;
+    position: fixed;
+    right: 2em;
+    bottom: 2em;
+    height: 2em;
+    width: 2em;
+}
+
+.hero{
+    height: 150px;
+}
+
+.hero-small{
+    height: 40px;
+}
+
+.hero-btiles {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    background-color: white;
+}
+/* The animation code */
+@keyframes growwidth {
+       0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+.bgtile {
+    height: 100%;
+    width: 33%;
+    border: 0px;
+    border-bottom: 10px;
+    border-style: double;
+
+    animation-name: growwidth;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+
+}
+
+.bgtile:nth-child(1){
+
+    border-color: rgba(220, 189, 189, 0.5);
+    display: flex;
+}
+
+.bgtile:nth-child(2){
+    border-color: #551A8B;
+}
+
+.bgtile:nth-child(3){
+    border-color: #0000FF;
+}
+
+.hero-title {
+    font-family: AmericanTypewriter;
+    font-size: 48px;
+    color: #4A4A4A;
+    letter-spacing: 0.2px;
+    align-self: center;
+}
+.hero-title a{
+    text-decoration: none;
 }

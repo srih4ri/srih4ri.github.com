@@ -4,16 +4,22 @@
   {% include head.html %}
 
   <body class="default-layout">
-  <div id="antiminimal-box"></div>
-    <h3 class="site-title">
-      <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-    </h3>
-    <div class="site-description">
-    {{site.description}}
+    {% if page.url == "/" %}
+    <div class="hero">
+      <div class="hero-btiles">
+        <div class="bgtile" ><span class="hero-title">
+          <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+        </span></div>
+        <div class="bgtile"></div>
+        <div class="bgtile"></div>
+      </div>
     </div>
+    {% else %}
+    <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+{% endif %}
+
     <div class="content">
       {{ content }}
     </div>
-  <div id="antiminimal-box1"></div>
   </body>
 </html>
