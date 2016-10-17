@@ -20,9 +20,11 @@ Or if you're using fish shell. ( You should try [fish](http://fishshell.com/), t
 
 ```bash
 function gho
-  open https://(git config --get remote.origin.url|sed -e s/.git//g|sed s,:,/,g)/$argv
+  set repo (git config --get remote.origin.url|sed -e s/^git@//g|sed -e s/\.git\$//g|sed s,:,/,g)
+  open "https://$repo/$argv"
 end
 ```
+(Updated this function to a working version)
 
 Make sure `open` command opens a URL. In my linux machine I have aliased `open` to `xdg-open`.
 
