@@ -13,7 +13,6 @@ One way to find this out would be to check the altitudes of places I’ve been t
 I clicked photos using my phone during the trip, and I knew my phone saved GPS information along with the photo when I clicked it. It’s highly likely your phone does that too.
 
 Along with every photo, information like time the photo is taken, Model of the camera etc is saved. This is done using a standard called “EXIF”. If you’ve curiously checked the properties of an image, you might’ve run into the exif data.
-
 ![EXIF - Wikipedia](https://upload.wikimedia.org/wikipedia/commons/6/6a/Konqueror_Exif_data.jpg) 
 
 It’s not really practical to go through check all the images like this. EXIF data of an image is a well supported machine readable format.

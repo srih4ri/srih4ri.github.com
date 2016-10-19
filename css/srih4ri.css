@@ -12,6 +12,7 @@ body {
     width: 800px;
     margin: auto;
     height: 100%;
+    line-height: 1.4;
 }
 
 .site-title{

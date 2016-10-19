@@ -8,8 +8,6 @@ date: 2016-09-07 10:36
 
 [srih4ri@gmail.com](mailto:srih4ri@gmail.com) | [Github](https://github.com/srih4ri) | Phone: [+91 7204275616](tel:+917204275616)
 
-## Overview
-
 A hacker by nature, worked in two product companies in various stages of product development. Also had short stints of starting up and freelancing.
 
 Experienced in sysadmin roles - deploying, monitoring, intervening during traffic peaks. Proficient in identifying and fixing database bottlenecks in Rails applications.
@@ -31,7 +29,7 @@ Used mysql, redis, Rails (2.x and above in production), ElasticSearch, wkhtmltop
 
 #### Engagement HQ v1
 
-Version 1 of flagship product of Bang The Table - Now retired.
+*   Version 1 of flagship product of Bang The Table - Now retired.
 
 *   Enhanced v1 version of Engagement HQ ( Rails 2.3.8 ) with new feature requests.
 *   Added bundler, capistrano support enhancing the build and release process of the single tenant app for ~200 clients.
@@ -39,7 +37,7 @@ Version 1 of flagship product of Bang The Table - Now retired.
 
 #### Peacekeeper HQ
 
-Moderation as a service product from Bang The Table
+*   Moderation as a service product from Bang The Table
 
 *   Added HTTP APIs to Peacekeeper for new EHQ tools.
 
