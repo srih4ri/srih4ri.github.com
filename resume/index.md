@@ -17,11 +17,14 @@ Experienced in sysadmin roles - deploying, monitoring, intervening during traffi
 Used mysql, redis, Rails (2.x and above in production), ElasticSearch, wkhtmltopdf, Capistrano. Also worked with Twitter/Facebook APIs. Familiar with JS frameworks like Backbone JS and React.
 
 ## Experience
+
 ### Software Consultant, Big Binary
 
 ##### July 2015 - Present
 
-* Various projects for clients, providing expertise in Ruby on Rails and ReactJS
+* Various projects for clients, providing expertise in Ruby on Rails and ReactJS.
+* Projects worked on included e-commerce systems, mobile app backends and logistics software built using rails.
+* Few blog posts on [BigBinary Blog](https://blog.bigbinary.com)
 
 ### Software Architect, Bang The Table.
 
