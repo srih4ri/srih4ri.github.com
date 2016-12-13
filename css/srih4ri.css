@@ -153,3 +153,32 @@ body {
 .hero-title a{
     text-decoration: none;
 }
+
+.content-resume {
+     
+}
+
+.content-resume h1 {
+    border-bottom: 2px solid;
+}
+
+.content-resume h2 {
+    border-bottom: 1px solid;
+    color: #666;
+}
+
+.content-resume h3{
+    margin: 0px;
+    margin-top: 10px;
+    border: 0px;
+    border-bottom: 1px;
+    border-style: ridge;
+}
+
+.content-resume h6{
+    margin: 0px;
+}
+
+.content-resume ul {
+    list-style-type: circle;
+}
