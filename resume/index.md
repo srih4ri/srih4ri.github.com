@@ -17,6 +17,7 @@ Proficient in identifying and fixing database bottlenecks in Rails applications.
 ## Experience
 
 ### Software Consultant, Big Binary
+
 ###### July 2015 - Present
 
 * Various projects for clients, providing expertise in Ruby on Rails and ReactJS.
@@ -24,6 +25,7 @@ Proficient in identifying and fixing database bottlenecks in Rails applications.
 * Few blog posts on [BigBinary Blog](https://blog.bigbinary.com)
 
 ### Software Architect, Bang The Table.
+
 ###### Jan, 2013 - July 2015
 
 #### Engagement HQ and Peacekeeper HQ
