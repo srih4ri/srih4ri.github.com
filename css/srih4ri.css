@@ -41,6 +41,10 @@ body {
 
 }
 
+p.nav_links > a{
+    text-decoration: none;
+}
+
 .postlist{
     list-style: none;
 }
@@ -182,3 +186,4 @@ body {
 .content-resume ul {
     list-style-type: circle;
 }
+
