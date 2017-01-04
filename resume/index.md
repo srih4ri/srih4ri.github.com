@@ -8,7 +8,7 @@ date: 2016-09-07 10:36
 
 Email: [srih4ri@gmail.com](mailto:srih4ri@gmail.com) \| Github: [srih4ri](https://github.com/srih4ri) \| Phone: [+91 7204275616](tel:+917204275616)
 
-Worked in two product companies and a consulting companies. Also had short stints of starting up and freelancing.
+Worked in two product companies and a consulting company. Also had short stints of starting up and freelancing.
 
 ## Experience
 
