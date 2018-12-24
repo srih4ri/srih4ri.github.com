@@ -21,8 +21,15 @@ body {
 }
 
 .site-title{
-    margin-top: 5em;
-    margin-bottom: 0em;
+    margin-top: 2em;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: green;
+    color: white;
+    text-transform: uppercase;
+    transform: rotate(-45deg);
+    text-decoration: none;
 }
 
 .site-title a{
@@ -38,7 +45,8 @@ body {
 }
 
 .content {
-
+    box-shadow: 0.5px 0.5px 2px #d5b5b5;
+    padding: 5em;
 }
 
 p.nav_links > a{
@@ -84,6 +92,7 @@ p.nav_links > a{
 
 .postlist__post {
     margin-bottom: 5em;
+    border-bottom: 5px dotted #eee;
 }
 
 .hero{
@@ -190,3 +199,16 @@ p.nav_links > a{
     list-style-type: circle;
 }
 
+.site-title {
+
+
+}
+
+.related h2 {
+    font-weight: 80;
+    font-size: 1.5em;
+}
+.related_related-posts {
+    font-size: 1em;
+    list-style: none;
+}
