@@ -11,7 +11,7 @@ layout: default
         </h5>
         <span class="postlist__post_meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <p class="postlist__post_brief">
-          {{post.content | truncatewords:50 | strip_html}}
+          {{post.content | strip_html | truncatewords:30 }}
         </p>
       </li>
     {% endfor %}
