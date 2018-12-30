@@ -1,6 +1,8 @@
+
 .highlight {
     background-color: #eee;
     padding: 2em;
+    overflow: scroll;
 }
 ul, p{
     padding: 0px;
@@ -21,14 +23,12 @@ body {
 }
 
 .site-title{
-    margin-top: 2em;
     position: fixed;
     left: 0;
     top: 0;
     background: green;
     color: white;
     text-transform: uppercase;
-    transform: rotate(-45deg);
     text-decoration: none;
 }
 
@@ -46,7 +46,7 @@ body {
 
 .content {
     box-shadow: 0.5px 0.5px 2px #d5b5b5;
-    padding: 5em;
+    padding: 1em;
 }
 
 p.nav_links > a{
@@ -76,12 +76,16 @@ p.nav_links > a{
     line-height: 1.4;
 }
 
+.post{
+    padding: 1.5em;
+}
 .post-content img {
     width: 100%;
     border: 5px solid #eee;
 }
 .post-date,.postlist__post_meta{
-    font-size: 1em;
+    font-size: 0.8em;
+    font-style: italic;
     color: #808080;
 }
 
@@ -91,7 +95,7 @@ p.nav_links > a{
 }
 
 .postlist__post {
-    margin-bottom: 5em;
+    margin-bottom: 1em;
     border-bottom: 5px dotted #eee;
 }
 
@@ -133,8 +137,8 @@ p.nav_links > a{
     height: 100%;
     width: 33.33%;
     border: 0px;
-    border-bottom: 10px;
-    border-style: double;
+    border-bottom: 5px;
+    border-style: solid;
 
     animation-name: growwidth;
     animation-duration: 1s;
@@ -156,14 +160,15 @@ p.nav_links > a{
     border-color: #0000FF;
 }
 
-.hero-title {
-    font-family: AmericanTypewriter;
+.hero-title{
     font-size: 48px;
-    color: #4A4A4A;
     letter-spacing: 0.2px;
     align-self: center;
 }
+
 .hero-title a{
+    font-family: AmericanTypewriter;
+    color: #000;
     text-decoration: none;
 }
 
@@ -211,4 +216,7 @@ p.nav_links > a{
 .related_related-posts {
     font-size: 1em;
     list-style: none;
+}
+.footer_links {
+    text-align: center;
 }

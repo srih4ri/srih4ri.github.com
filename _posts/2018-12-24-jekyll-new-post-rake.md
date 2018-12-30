@@ -3,7 +3,7 @@ layout: post
 title: "Jekyll new post rake task"
 date: "2016-09-17"
 comments: true
-categories: ruby, jekyll
+categories: jekyll
 ---
 
 Add this to your Rakefile : 
