@@ -6,6 +6,6 @@ end
 
 task :np do
   note_name =ENV['note'] || 'misc'
-  note_file = "_posts/#{Time.now.to_i}-#{note_name}.md"
+  note_file = "_posts/#{Time.now.strftime("%Y-%m-%d")}-#{note_name}.md"
   `touch #{note_file}`
 end
