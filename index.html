@@ -2,21 +2,30 @@
 layout: default
 ---
 
-<div class="home">
-  <ul class="postlist">
-    {% for post in site.posts %}
-      <li class="postlist__post">
-        <h5 class="postlist__post_title">
-          <a class="postlist__post_url" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h5>
-        <span class="postlist__post_meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <p class="postlist__post_brief">
-          {{post.content | strip_html | truncatewords:30 }}
-        </p>
-      </li>
-    {% endfor %}
-  </ul>
+<section class="postlist">
+  {% for post in site.posts %}
+  <section class="postlist__post">
+    <h1 class="postlist__post_title">
+      <a class="postlist__post_url" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>           
+    </h1>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <span class="postlist__post_meta">
+      {{ post.date | date: "%b %-d, %Y" }}
+    </span>
+    <p class="postlist__post_brief">
+      <span>
+        {{post.content | strip_html | truncatewords:30 }}
+      </span>
+      <span class="postlist__post_tag">
+        #{{ post.categories }}
+      </span>
 
-</div>
+    </p>
+  </section>
+  {% endfor %}
+  <aside>
+    <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </aside>
+
+</section>
+

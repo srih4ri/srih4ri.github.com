@@ -8,7 +8,8 @@ categories: debian-diaspora
 
 ## Quilt
 
-Really good tutorial : http://www.shakthimaan.com/downloads/glv/quilt-tutorial/quilt-doc.pdf
+Really good tutorial : [Quilt Tutorial - Shakthi Kannan,
+April 6, 2006](http://www.shakthimaan.com/downloads/glv/quilt-tutorial/quilt-doc.pdf)
 
 To know which patch you are on : 
 ```bash

@@ -4,30 +4,22 @@
   {% include head.html %}
 
   <body class="default-layout">
-    {% if page.url == "/" %}
-    <div class="hero">
-      <div class="hero-btiles">
-        <div class="bgtile" ><span class="hero-title">
+
+    <section class="header">
+      <div class="hero">
+        <span class="hero-title">
           <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-        </span></div>
-        <div class="bgtile"></div>
-        <div class="bgtile"></div>
+        </span>
       </div>
-    </div>
-    {% else %}
-      <a href="{{ site.baseurl }}/" title="Home" class="site-title">{{ site.title }}</a>
-    {% endif %}
-
-    <div class="content">
-      {{ content }}
-    </div>
-
-    <p class="footer_links">
-        <a href="mailto:srih4ri@gmail.com?Subject=Hello" target="_blank">Contact</a>
-        /
+      <section class="header_links">
+        <a href="mailto:srih4ri@gmail.com?Subject=Hello Srihari!" target="_blank">Contact</a>
         <a href="/resume">Resume</a>
-        /
         <a href="https://github.com/srih4ri">Github</a>
-    </p>
+      </section>      
+    </section>
+
+    <section class="content">
+      {{ content }}
+    </section>
   </body>
 </html>

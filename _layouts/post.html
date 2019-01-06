@@ -2,27 +2,14 @@
 layout: default
 ---
 
-<div class="post">
+<section class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
+  <span class="post-date">{{ page.date | date: "%b %-d, %Y" }}</span>
   <div class="post-content">
-      {{ content }}
+    {{ content }}
   </div>
-</div>
+</section>
 
-<div id="disqus_thread"></div>
-
-<small>Apologies for removing commenting functionality. Please <a href="mailto:srih4ri+blogcomment@gmail.com">Email me</a> your comments, until I find a commenting tool less intrusive than disqus.. </small>
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related_related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+<section class="comments">
+  <small>Apologies for removing commenting functionality. Please <a href="mailto:srih4ri+blogcomment@gmail.com">Email me</a> your comments, until I find a commenting tool less intrusive than disqus.. </small>
+</section>
