@@ -21,7 +21,7 @@ Worked with three product companies and a consulting company. Also had short sti
 - Onboarded a team of four rails developers to react, switched to react from handlebars with zero impact on delivery times.
 - Nurtured a culture of ownership and pride.
 
-#### Ops and site reliability.
+#### Ops and Site Reliability
 - First responder for incidents in scripbox's core services.
 - Provided On Call support and ensured uptime of scripbox's call center.
 - Rolled out rails upgrade from 4.3 to 5.1 with near zero downtime.
@@ -37,27 +37,31 @@ Worked with three product companies and a consulting company. Also had short sti
 - elasticsearch, postgres, mysql
 - LaTex, Redash/Metabase
 
-#### Software Consultant, Big Binary
+---
+### Software Consultant, Big Binary
 
 ###### July 2015 - Dec 2016
 Worked as a Rails and React JS developer for multiple clients. Projects worked on included e-commerce systems, mobile app backends and logistics software built using rails. Also wrote few blog posts on [BigBinary Blog](https://blog.bigbinary.com)
 
-#### Software Architect, Bang The Table.
+---
+### Software Architect, Bang The Table.
 
 ###### Jan, 2013 - July 2015
 Worked as a Rails and Javascript developer for building two products in Community Engagement.
 
-#### Software Engineer, Foradian Technologies
+---
+### Software Engineer, Foradian Technologies
 
 ###### July, 2010 - May, 2012
 Worked as a Rails and Javascript developer on Fedena, an open source school management system. Worked on building 'Sampoorna' , the school erp used by kerala government.
 
-#### Others
+---
+### Others
 
 Worked with debian-ruby team to package Ruby Gems for Debian as a part of Diaspora project.
 
 ## Education
 
-#### Btech - Electronics and Communication, Lal Bahadur Sasthri College of Engineering.
+##### Btech - Electronics and Communication, Lal Bahadur Sasthri College of Engineering.
 
 ###### July, 2010

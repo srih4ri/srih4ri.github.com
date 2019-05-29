@@ -123,35 +123,32 @@ p.nav_links > a{
 
 
 .content-resume {
-     
-}
-
-.content-resume h1 {
-    border-bottom: 2px solid;
+    padding: 2em;
+    font-size: 22px;
 }
 
 .content-resume h2 {
     border-bottom: 1px solid;
-    color: #666;
 }
-
-.content-resume h3{
-    margin: 0px;
-    margin-top: 10px;
-    border: 0px;
-    border-bottom: 1px;
-    border-style: ridge;
+.content-resume h3 {
+    margin-bottom: 2px;
 }
-
-.content-resume h6{
-    margin: 0px;
-}
-
 .content-resume h4 {
-    margin: 0px;
+    margin-bottom: 2px;
+}
+.content-resume h6 {
+    margin: 0px 2px
 }
 .content-resume ul {
+    margin: 10px;
     list-style-type: circle;
+}
+
+.content-resume hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
 .site-title {
