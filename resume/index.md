@@ -13,8 +13,10 @@ Worked with three product companies and a consulting company. Also had short sti
 ## Experience
 
 ### Product Engineer, Scripbox
+###### Feb, 2017 - present
 
 #### Mentoring
+
 - Lead the backend team for scripbox's core services.
 - Onboarded a team of four rails developers to react, switched to react from handlebars with zero impact on delivery times.
 - Nurtured a culture of ownership and pride.
