@@ -8,9 +8,32 @@ date: 2016-09-07 10:36
 
 Email: [srih4ri@gmail.com](mailto:srih4ri@gmail.com) \| Github: [srih4ri](https://github.com/srih4ri) \| Phone: [+91 7204275616](tel:+917204275616)
 
-Worked in two product companies and a consulting company. Also had short stints of starting up and freelancing.
+Worked with three product companies and a consulting company. Also had short stints of starting up and freelancing.
 
 ## Experience
+
+### Product Engineer, Scripbox
+
+#### Mentoring
+- Lead the backend team for scripbox's core services.
+- Onboarded a team of four rails developers to react, switched to react from handlebars with zero impact on delivery times.
+- Nurtured a culture of ownership and pride.
+
+#### Ops and site reliability.
+- First responder for incidents in scripbox's core services.
+- Provided On Call support and ensured uptime of scripbox's call center.
+- Rolled out rails upgrade from 4.3 to 5.1 with near zero downtime.
+
+#### Product 
+- Built a Business Process Management software from scratch. Over the last one year, this software makes scripbox's processes measurable, efficient and fast. 
+- Built a highly concurrent Portfolio Reporting System in a short span of a month, used elixir and postgres.
+- Built key components for a paperless onboarding process - Reduced time to invest in a mutual fund to hours from days. 
+
+#### Technologies used
+- AWS, kubernetes, docker.
+- ruby, elixir
+- elasticsearch, postgres, mysql
+- LaTex, Redash/Metabase
 
 #### Software Consultant, Big Binary
 
