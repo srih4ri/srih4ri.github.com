@@ -9,7 +9,7 @@ ul, p{
 }
 
 body {
-    font-family: Avenir Next;
+    font-family: Monospace;
     font-size: larger;
     margin: auto;
     width: auto;
@@ -117,7 +117,7 @@ p.nav_links > a{
 }
 
 .postlist__post {
-    margin-bottom: 1em;
+    margin-bottom: 0.7em;
     border-bottom: 1px solid #eee;
 }
 
@@ -178,8 +178,7 @@ p.nav_links > a{
 }
 
 .hero-title{
-    font-family: American Typewriter;
-    font-size: 48px;
+    font-size: 24px;
     padding-left: 1em;
     letter-spacing: 0.2px;
 }
