@@ -1,4 +1,10 @@
-# Leaving twitter.
+---
+layout: post
+title: "Leaving Twitter"
+date: 2019-07-08 21:21
+comments: true
+categories: social-network
+---
 
 Quitting is a strong word. I am probably going to return to twitter someday. 
 
