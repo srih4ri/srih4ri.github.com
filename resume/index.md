@@ -12,8 +12,11 @@ Worked with three product companies and a consulting company. Also had short sti
 
 ## Experience
 
+### AVP Technology, Scripbox
+###### Feb, 2020 - present
+
 ### Product Engineer, Scripbox
-###### Feb, 2017 - present
+###### Feb, 2017 - Feb, 2020
 
 #### Mentoring
 
