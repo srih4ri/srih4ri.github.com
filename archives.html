@@ -1,0 +1,16 @@
+---
+layout: page
+title: Blog Archives
+---
+
+{% for post in site.posts%}
+    <article class="column">
+        <a class="title is-4 is-spaced" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        <p class="subtitle is-6">
+            {{ post.date | date: "%b %-d, %Y" }}  <a href="/categories#{{post.categories|first|slugize}}">#{{ post.categories }}</a>
+        </p>
+        <div class="content">
+            {{post.content | strip_html | truncatewords:30 }}
+        </div>
+    </article>
+{% endfor %}
