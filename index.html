@@ -2,14 +2,14 @@
 layout: default
 ---
 
-{% for post in site.posts limit:1 offset:1%}
+{% for post in site.posts limit:1%}
 <section class="hero is-medium is-bold">
   <div class="hero-body">
     <div class="container">
       <h1 class="title">
       <a class="title is-1" href="{{ post.url }}/">{{ post.title | escape }}</a>
       </h1>
-      <p class="subtitle">
+      <p class="subtitle content">
         {{post.content | strip_html | truncatewords:200 }}
       </p>
     </div>

@@ -11,9 +11,12 @@ Email: [srih4ri@gmail.com](mailto:srih4ri@gmail.com) \| Github: [srih4ri](https:
 Worked with three product companies and a consulting company. Also had short stints of starting up and freelancing.
 
 ## Experience
+### Senior Software Engineer, Clark
+###### Nov, 2020 - Present
 
+---
 ### AVP Technology, Scripbox
-###### Feb, 2020 - present
+###### Feb, 2020 - Oct, 2020
 
 ### Product Engineer, Scripbox
 ###### Feb, 2017 - Feb, 2020
