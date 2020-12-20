@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-  {% include head.html %}
-
-  <body class="default-layout">
-
-    <section class="header">
-      <div class="hero">
-        <span class="hero-title">
-          <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-        </span>
-      </div>
-      <section class="header_links">
-        <a href="mailto:srih4ri@gmail.com?Subject=Hello Srihari!" target="_blank">Contact</a>
-        <a href="/resume">Resume</a>
-        <a href="https://github.com/srih4ri">Github</a>
-      </section>      
-    </section>
-
-    <section class="content">
-      {{ content }}
-    </section>
-  </body>
+{% include head.html %}
+<body>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="is-size-3 navbar-item" href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+    </div>
+    <div class="navbar-end">
+      <a class="navbar-item" href="/resume">Resume</a>
+      <a class="navbar-item" href="/about">About</a>
+      <a class="navbar-item" href="https://github.com/srih4ri">Github</a>
+      <a class="navbar-item" href="mailto:srih4ri+srvr@gmail.com?Subject=Hello Srihari!" target="_blank">Contact</a>
+    </div>
+  </nav>
+  <section class="container is-max-desktop">
+    {{content}}
+  </section>
+  <footer class="footer" style="position: fixed; width: 100%; bottom: 0;">
+    <aside>
+      <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    </aside>
+  </footer>
+</body>
 </html>

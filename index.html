@@ -2,30 +2,38 @@
 layout: default
 ---
 
-<section class="postlist">
-  {% for post in site.posts %}
-  <section class="postlist__post">
-    <h1 class="postlist__post_title">
-      <a class="postlist__post_url" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>           
-    </h1>
-
-    <span class="postlist__post_meta">
-      {{ post.date | date: "%b %-d, %Y" }}
-    </span>
-    <p class="postlist__post_brief">
-      <span>
-        {{post.content | strip_html | truncatewords:30 }}
-      </span>
-      <span class="postlist__post_tag">
-        #{{ post.categories }}
-      </span>
-
-    </p>
-  </section>
-  {% endfor %}
-  <aside>
-    <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-  </aside>
-
+{% for post in site.posts limit:1 offset:1%}
+<section class="hero is-medium is-bold">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+      <a class="title is-1" href="{{ post.url }}/">{{ post.title | escape }}</a>
+      </h1>
+      <p class="subtitle">
+        {{post.content | strip_html | truncatewords:200 }}
+      </p>
+    </div>
+  </div>
 </section>
+{% endfor %}
 
+<section class="section">
+  <h2 class="title is-3">Recent posts</h2>
+  <div class="columns is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd">
+    {% for post in site.posts limit:4%}
+    <article class="column is-one-quarter">
+      <div class="box">
+
+        <a class="title is-4 is-spaced" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        <p class="subtitle is-6">
+          {{ post.date | date: "%b %-d, %Y" }}      #{{ post.categories }}
+        </p>
+        <div class="content">
+          {{post.content | strip_html | truncatewords:30 }}
+        </div>
+      </div>
+
+    </article>
+    {% endfor %}
+  </div>
+</section>
