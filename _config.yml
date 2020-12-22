@@ -21,7 +21,7 @@ tagline: > # this means to ignore newlines until "baseurl:"
 description: > # this means to ignore newlines until "baseurl:"
   A personal blog with notes and learnings from software    engineering and product development. Also musings about other hobbies like electronics and gardnening.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://srvr.in" # the base hostname & protocol for your site
+url: "https://srvr.in" # the base hostname & protocol for your site
 author:
   twitter: srih4ri
 twitter:
