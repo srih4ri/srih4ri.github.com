@@ -4,7 +4,7 @@ layout: default
 <section class="is-hidden">
     {{site.description}}
 </section>
-<section class="section is-small container is-max-desktop">
+<section class="section container">
 
   {% for post in site.posts limit:1%}
   <div class="box">
@@ -12,10 +12,10 @@ layout: default
     <div class="hero-body">
       <div class="container">
         <h1 class="title">
-        <a class="title is-1" href="{{ post.url }}">{{ post.title | escape }}</a>
+          <a class="title is-1" href="{{ post.url }}">{{ post.title | escape }}</a>
         </h1>
         <p class="subtitle content">
-          {{post.content | strip_html | truncatewords:200 }}
+          {{post.content | strip_html | truncatewords:10 }}
         </p>
       </div>
     </div>
