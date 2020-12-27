@@ -4,20 +4,26 @@ layout: default
 <section class="is-hidden">
     {{site.description}}
 </section>
-{% for post in site.posts limit:1%}
-<section class="hero is-medium is-bold">
-  <div class="hero-body">
-    <div class="container">
-      <h1 class="title">
-      <a class="title is-1" href="{{ post.url }}">{{ post.title | escape }}</a>
-      </h1>
-      <p class="subtitle content">
-        {{post.content | strip_html | truncatewords:200 }}
-      </p>
+<section class="section is-small container is-max-desktop">
+
+  {% for post in site.posts limit:1%}
+  <div class="box">
+  <section class="hero is-medium is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+        <a class="title is-1" href="{{ post.url }}">{{ post.title | escape }}</a>
+        </h1>
+        <p class="subtitle content">
+          {{post.content | strip_html | truncatewords:200 }}
+        </p>
+      </div>
     </div>
+  </section>
   </div>
+  {% endfor %}
+
 </section>
-{% endfor %}
 
 <section class="section">
   <h2 class="title is-3">Recent posts</h2>
