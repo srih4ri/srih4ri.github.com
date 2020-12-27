@@ -31,3 +31,10 @@ categories: uncategorized
   File.open(post_file, 'w'){|f| f.write(front_matter)}
   `open #{post_file}`
 end
+
+desc "Publish all posts"
+task :publish do
+  `git add _posts`
+  `git commit -m "Posts from #{Time.now}"`
+  `git push`
+end
