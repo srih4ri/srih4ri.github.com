@@ -2,15 +2,14 @@
 layout: default
 ---
 <section class="is-hidden">
-    {{site.description}}
+  {{site.description}}
 </section>
 <section class="section container">
-
   {% for post in site.posts limit:1%}
-  <div class="box">
   <section class="hero is-medium is-bold">
     <div class="hero-body">
       <div class="container">
+        {{ post.date | date: "%b %-d, %Y" }}
         <h1 class="title">
           <a class="title is-1" href="{{ post.url }}">{{ post.title | escape }}</a>
         </h1>
@@ -20,30 +19,21 @@ layout: default
       </div>
     </div>
   </section>
-  </div>
   {% endfor %}
-
 </section>
-
 <section class="section">
   <h2 class="title is-3">Recent posts</h2>
   <div class="columns is-variable is-1-mobile is-2-tablet is-3-desktop is-8-widescreen is-2-fullhd">
     {% for post in site.posts limit:4%}
-    <article class="column">
-      <div class="box">
-
+    <article class="column p-0 m-2" style="border: 0.5px solid #111">
+      <p class="p-4">
         <a class="title is-4 is-spaced" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        <p class="subtitle is-6">
-            {{ post.date | date: "%b %-d, %Y" }}
-        </p>
-        <p>
-            <a class="tag is-white" href="/categories#{{post.categories|first|slugize}}">#{{ post.categories }}</a>
-        </p>
-        <div class="content p-2">
-          {{post.content | strip_html | truncatewords:30 }}
-        </div>
-      </div>
-
+        {{ post.date | date: "%b %-d, %Y" }}
+        <a class="tag is-white" href="/categories#{{post.categories|first|slugize}}">#{{ post.categories }}</a>
+      </p>
+      <p class="content p-4">
+        {{post.content | strip_html | truncatewords:30 }}
+      </p>
     </article>
     {% endfor %}
   </div>

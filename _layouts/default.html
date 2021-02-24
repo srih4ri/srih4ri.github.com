@@ -2,7 +2,7 @@
 <html lang="en-us">
     {% include head.html %}
     <body class="">
-        <nav class="navbar is-light is-fixed-top" role="navigation" aria-label="main navigation">
+        <nav class="navbar has-shadow is-fixed-top is-transparent" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
                 <a class="is-size-4-tablet navbar-item" href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -33,7 +33,7 @@
                     </p>
                     <p>
                         {% for tag in site.categories %}
-                            <a class="tag" href="/categories#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
+                            <a class="tag m-2" href="/categories#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
                         {% endfor %}
                     </p>
                     <p>

@@ -35,7 +35,9 @@ social:
     - https://www.linkedin.com/in/srih4ri/
 twitter_username: srih4ri
 github_username:  srih4ri
-
+collections:
+  notes:
+    output: true
 # Build settings
 markdown: kramdown
 plugins:

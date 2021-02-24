@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Notes"
+date: 2016-08-21 10:36
+---
+
+
+{% for item in site.notes %}
+  <a href="{{ item.url }}">{{ item.title | escape }}</a><br/>
+{% endfor %}
